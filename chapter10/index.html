@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>はじめてのWebアプリケーション！</title>
+    <style type="text/css">
+    h1 {
+        background:#eee;
+        border:1px solid #ccc;
+        border-left:7px solid #e3297d;
+        padding:15px 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1>あなたのお名前はなんというのですか？</h1>
+    <form action="cgi-bin/name.py" method="get">
+    <p>お名前: <input type="text" name="name"/></p>
+    <button type="submit">送信</button>
+    </form>
+</body>
+</html>
