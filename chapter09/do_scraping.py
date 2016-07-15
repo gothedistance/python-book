@@ -5,4 +5,4 @@ req = urllib.request.urlopen('http://quality-start.in/company/')
 
 soup = BeautifulSoup(req,"html.parser")
 
-print(soup.select('h1')[0].text)
+print(soup.find('h1').text)
